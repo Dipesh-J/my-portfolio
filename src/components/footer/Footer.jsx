@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaCode } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
+import {SiLeetcode, SiGmail} from "react-icons/si"
+
 
 function Footer() {
   return (
@@ -15,13 +17,13 @@ function Footer() {
             <FaGithub />
           </a>
           <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
-            <FaCode />
+            <SiLeetcode />
           </a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="mailto:your_email@example.com" target="_blank" rel="noopener noreferrer">
-            <FaEnvelope />
+          <a href="mailto:dipeshjoshi015@gmail.com" target="_blank" rel="noopener noreferrer">
+            <SiGmail />
           </a>
         </div>
       </div>

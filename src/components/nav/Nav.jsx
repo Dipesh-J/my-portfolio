@@ -24,7 +24,7 @@ function Nav() {
     <nav className={navbar ? "navbar active" : "navbar"}>
       <div className="navbar-container">
         <Link
-          to="home"
+          to="container header__container"
           className="navbar-logo"
           smooth={true}
           duration={500}
@@ -60,13 +60,13 @@ function Nav() {
           </li>
           <li className="nav-item">
             <Link
-              to="portfolio"
+              to="projects"
               className="nav-links"
               smooth={true}
               duration={500}
               onClick={closeMobileMenu}
             >
-              Portfolio
+              Projects
             </Link>
           </li>
           <li className="nav-item">
@@ -85,54 +85,5 @@ function Nav() {
     </nav>
   );
 }
-
-// export default Nav;
-// import React, { useState } from "react";
-// import "./nav.css";
-// import { FaBars } from "react-icons/fa";
-// import { AiOutlineClose } from "react-icons/ai";
-
-// function Nav() {
-//   const [isOpen, setIsOpen] = useState(false);
-
-//   const handleToggle = () => {
-//     setIsOpen(!isOpen);
-//   };
-
-//   return (
-//     <nav className="navbar">
-//       <div className="navbar__container">
-//         <div className="navbar__logo">
-//           <a href="/">Portfolio</a>
-//         </div>
-//         <div className="navbar__menu-icon" onClick={handleToggle}>
-//           {isOpen ? <AiOutlineClose /> : <FaBars />}
-//         </div>
-//         <ul className={isOpen ? "navbar__menu active" : "navbar__menu"}>
-//           <li className="navbar__item">
-//             <a href="#about" className="navbar__links" onClick={handleToggle}>
-//               About
-//             </a>
-//           </li>
-//           <li className="navbar__item">
-//             <a href="#experience" className="navbar__links" onClick={handleToggle}>
-//               Experience
-//             </a>
-//           </li>
-//           <li className="navbar__item">
-//             <a href="#projects" className="navbar__links" onClick={handleToggle}>
-//               Projects
-//             </a>
-//           </li>
-//           <li className="navbar__item">
-//             <a href="#contact" className="navbar__links" onClick={handleToggle}>
-//               Contact
-//             </a>
-//           </li>
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-// }
 
 export default Nav;
