@@ -1,4 +1,4 @@
-header {
+/* header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
@@ -12,16 +12,16 @@ header {
 
 /* ================================== CTA ===================================== */
 
-.cta {
+/* .cta {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-}
+} */
 
 /* ================================== HEADER SOCIALS ========================= */
 
-.header__socials {
+/* .header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,17 +29,17 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
-}
-
+} */
+/* 
 .header__socials::after{
     content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
-}
+} */
 
 /* ============================== ME ===================================*/
-
+/* 
 .me {
     background: var(--color-primary );
     width: 22rem;
@@ -51,4 +51,245 @@ header {
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
 
-}
+} */ 
+/* 
+header {
+    height: 100vh;
+    /* background-image: url('../../assets/dipesh.jpg'); */
+    /* background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  position: relative;
+  z-index: 1;
+  }
+  
+  .header__container {
+    text-align: center;
+  }
+ 
+  .header__container h5:first-of-type {
+    padding-top: 20rem;
+  }
+  
+  @media (max-width: 768px) {
+    .header__container h5:first-of-type {
+      padding-top: 5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header__container h5:first-of-type {
+      padding-top: 3rem;
+    }
+  }
+  
+  
+  
+  .header__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .header__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .scroll_down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .scroll_down:hover {
+    transform: translateX(-50%) translateY(-10px);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  } */ 
+  .header {
+    height: 100vh;
+    background-image: url('../../assets/dipesh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .header__container {
+    text-align: center;
+  }
+  
+  .header__container h5:first-of-type {
+    padding-top: 20rem;
+  }
+  
+  @media (max-width: 768px) {
+    .header__container h5:first-of-type {
+      padding-top: 5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header__container h5:first-of-type {
+      padding-top: 3rem;
+    }
+  }
+  
+  .header__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .header__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  .scroll_down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .scroll_down:hover {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .intro {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .header__container h1 {
+    opacity: 0;
+    animation: fadeInDown 1s ease forwards 0.3s;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .header__container .text-light {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards 0.6s;
+  }
+  
+  .me {
+    opacity: 0;
+    animation: fadeInLeft 1s ease forwards 0.9s;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .scroll_down {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1.2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .scroll_down:hover {
+    transform: translateX(-50%) translateY
+    (-10px) scale(1.1);
+  }

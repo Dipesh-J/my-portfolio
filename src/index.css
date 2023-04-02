@@ -36,7 +36,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/WIN_20230130_00_35_56_Pro.jpg);
+  /* background-image: url(../src/assets/WIN_20230130_00_35_56_Pro.jpg); */
 }
 /* ==================General Styles====================*/
 .container {

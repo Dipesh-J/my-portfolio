@@ -1,0 +1,54 @@
+footer{
+    background: var(--color-bg-variant);
+    padding: 3rem 0;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.footer__logo p{
+    font-size: 1rem;
+    color: var(--color-text-light);
+}
+
+.footer__icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer__icons a{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.footer__icons a:hover{
+    color: var(--color-primary-variant);
+}
+
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ===================================== */
+@media screen and (max-width: 600px){
+    .footer__container{
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    .footer__logo h3{
+        font-size: 2rem;
+    }
+    .footer__logo p{
+        font-size: 1.2rem;
+    }
+    .footer__icons{
+        margin-top: 2rem;
+    }
+}
