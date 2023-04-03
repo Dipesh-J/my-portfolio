@@ -13,8 +13,7 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 6.5rem;
-    margin-left: 14rem;
-    display: flex;
+    margin-right: 35rem;
   }
   
   .text-light {
@@ -80,6 +79,8 @@
     .intro {
       font-size: 1rem;
       margin-bottom: 0.5rem;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .text-light {
@@ -110,6 +111,9 @@
     .intro {
       font-size: 1rem;
       margin-bottom: 0.3rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
     }
   
     .text-light {
