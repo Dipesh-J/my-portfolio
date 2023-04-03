@@ -13,13 +13,13 @@ function Footer() {
           <p>Created by Me © 2023</p>
         </div>
         <div className="footer__icons">
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Dipesh-J" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
-          <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://leetcode.com/Dipeshjoshi015/" target="_blank" rel="noopener noreferrer">
             <SiLeetcode />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/dipesh-joshi-341750130/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
           <a href="mailto:dipeshjoshi015@gmail.com" target="_blank" rel="noopener noreferrer">

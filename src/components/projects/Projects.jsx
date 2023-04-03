@@ -5,9 +5,7 @@ import IMG2 from '../../assets/project2.jpg'
 import IMG3 from '../../assets/project3.jpg'
 import IMG4 from '../../assets/project4.png'
 import IMG5 from '../../assets/project5.jpg'
-// import IMG6 from '../../assets/project6.jpg'
 
-//
 const data = [
   {
     id: 1,
@@ -39,13 +37,6 @@ const data = [
     title: "Ecommerce-Website",
     github: "https://github.com/Dipesh-J/Project-Ecommerce-Website",
   },
-  {
-    id: 6,
-    // image: IMG6,
-    title: "Crypto-Currency",
-    github: "https://github.com/1siikaa/blockchainProject",
-  },
-
 ];
 
 function Projects() {

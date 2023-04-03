@@ -3,11 +3,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
 }
+.icons{
+    background: transparent !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+    border: none !important;
+}
 
+.experience__icons{
+    font-size: 5rem;
+    color: var(--color-primary);
+}
 .experience__container > div{
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -16,7 +27,7 @@
 
 }
 
-.experience__container > div:hover{
+.experience__container > :first-child:hover{
     background: transparent;
     border-color:var(--color-primary-variant);
     cursor: default;
@@ -57,7 +68,10 @@
     padding: 2rem;
     margin: 0 auto;
   }
-
+  .icons{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
   .experience__content{
     padding: 1rem;
   }
