@@ -64,8 +64,12 @@
   
   .header_socials a {
     margin-left: 1rem;
-    color: #fff;
+    color: var(--color-primary);
     font-size: 2rem;
+  }
+  .header_socials a:hover {
+    color: var(--color-primary-variant);
+
   }
   
   /* Responsive styles */

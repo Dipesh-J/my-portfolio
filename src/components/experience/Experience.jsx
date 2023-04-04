@@ -91,7 +91,7 @@ function experience() {
           </article>
           <article className="experience__icons">
             <a
-              href="https://nodejs.dev/en/learn/nodejs-with-typescript/"
+              href="https://nodejs.dev/en/learn/introduction-to-nodejs/"
               target="_blank"
               rel="noopener noreferrer"
             >

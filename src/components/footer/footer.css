@@ -15,6 +15,9 @@ footer{
     margin-bottom: 1rem;
     color: var(--color-primary);
 }
+.footer__logo h3:hover{
+    color: var(--color-primary-variant);
+}
 
 .footer__logo p{
     font-size: 1rem;
