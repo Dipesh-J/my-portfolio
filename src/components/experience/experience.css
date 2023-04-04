@@ -19,6 +19,9 @@
     font-size: 5rem;
     color: var(--color-primary);
 }
+.experience__icons a:hover{
+    color: var(--color-primary-variant);
+}
 .experience__container > div{
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
