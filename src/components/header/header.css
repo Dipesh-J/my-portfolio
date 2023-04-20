@@ -25,9 +25,12 @@
   }
   
   .me img {
-    max-width: 100%;
+    max-width:450px;
+    margin: 0 auto;
     border-radius: 50%;
-  }
+}
+
+
   
   /* CTA styles */
   .cta {
