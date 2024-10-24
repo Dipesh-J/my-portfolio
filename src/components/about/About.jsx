@@ -20,7 +20,7 @@ function about() {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>6+ months working expierence</small>
+                <small>1.5+ years of working expierence</small>
               </article>
               <article className="about__card">
                 <VscFolderLibrary className="about__icon"/>
@@ -34,7 +34,9 @@ function about() {
               </article>
             </div>
             <p>
-            "As a recent graduate in web development, I am eager to apply my knowledge and skills to a challenging role in the field. I have gained experience working with backend web technologies during my time at FunctionUp, and I am passionate about building engaging and user-friendly interfaces that meet the needs of today's users. With a solid foundation in HTML, CSS, and JavaScript, and experience in developing responsive websites, I am confident in my ability to contribute to a team of professionals and continue to grow as a developer. I am excited to learn from experienced mentors and contribute my energy and enthusiasm to a company that values innovation and collaboration."
+            "As an experienced software developer, I specialize in backend technologies and have worked on diverse projects that integrate APIs, databases, and client requirements. My time at FunctionUp and DronaHQ has provided me with hands-on experience working with technologies such as Node.js, MongoDB, MySQL, and more, alongside global clients like Clevertap, media.net, and United Finance Bank. I have also contributed to multiple client POCs by building custom React controls and API integrations.
+
+With a passion for problem-solving and building scalable, user-focused applications, I continually seek new challenges that push me to innovate and grow. I thrive in collaborative, fast-paced environments where adaptability, communication, and a curiosity for deep understanding drive success. I'm eager to bring my technical expertise and enthusiasm to a dynamic team that values creativity and forward-thinking solutions."
 
             </p>
            <a href='https://www.linkedin.com/in/dipesh-joshi-341750130'  target='_blank' rel="noreferrer"   className="btn btn-primary">Let's Talk</a>
