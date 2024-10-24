@@ -52,8 +52,8 @@ function experience() {
             <article className="experience__details">
               <BsPatchCheckFill />
               <div>
-                <h4>React(Basics)</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
