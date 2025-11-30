@@ -20,7 +20,7 @@ function about() {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>1.5+ years of working expierence</small>
+                <small>2+ years of working experience</small>
               </article>
               <article className="about__card">
                 <VscFolderLibrary className="about__icon"/>
@@ -34,10 +34,7 @@ function about() {
               </article>
             </div>
             <p>
-            "As an experienced software developer, I specialize in backend technologies and have worked on diverse projects that integrate APIs, databases, and client requirements. My time at FunctionUp and DronaHQ has provided me with hands-on experience working with technologies such as Node.js, MongoDB, MySQL, and more, alongside global clients like Clevertap, media.net, and United Finance Bank. I have also contributed to multiple client POCs by building custom React controls and API integrations.
-
-With a passion for problem-solving and building scalable, user-focused applications, I continually seek new challenges that push me to innovate and grow. I thrive in collaborative, fast-paced environments where adaptability, communication, and a curiosity for deep understanding drive success. I'm eager to bring my technical expertise and enthusiasm to a dynamic team that values creativity and forward-thinking solutions."
-
+            "Backend Developer with 2+ years of experience in Node.js, Express, JavaScript, AWS, and multi-database systems. Built scalable backend architectures, AI-driven workflows, and production-grade automations used by global enterprise clients. Delivered POCs for Clevertap, media.net, and Swiggy, improving development speed and reducing configuration overhead. Known for adaptability, rapid learning, and strong communication backed by consistent high performance and multiple awards."
             </p>
            <a href='https://www.linkedin.com/in/dipesh-joshi-341750130'  target='_blank' rel="noreferrer"   className="btn btn-primary">Let's Talk</a>
           </div>
