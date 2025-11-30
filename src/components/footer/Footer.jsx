@@ -20,7 +20,7 @@ function Footer() {
           <h3>My Portfolio</h3>
         </Link>
           
-          <p>Created by Me © 2023</p>
+          <p>Created by Me © 2025</p>
         </div>
         <div className="footer__icons">
           <a
